@@ -1,3 +1,6 @@
+// TC : O(n)
+// SC : O(1)
+
 #include<iostream>
 using namespace std;
 

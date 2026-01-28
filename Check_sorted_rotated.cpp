@@ -1,4 +1,6 @@
 // Leetcode 1752 Problem
+// TC : O(n)
+// SC : O(1)
 
 #include<iostream>
 #include<vector>
