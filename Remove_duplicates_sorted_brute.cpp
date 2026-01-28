@@ -1,3 +1,6 @@
+// TC : O(nlogn) + O(n) = O(nlogn)
+// SC : O(n)
+
 #include<iostream>
 #include<vector>
 #include<set>
@@ -8,7 +11,7 @@ int Remove_duplicates_sorted_brute ( vector<int> & arr) {
     int n = arr.size();
     set<int> st;
     for( int i=0;i<n;i++) {
-        st.insert(arr[i]);
+        st.insert(arr[i]);   // insert takes log(n) to insert;
     }
 
     int index=0;
