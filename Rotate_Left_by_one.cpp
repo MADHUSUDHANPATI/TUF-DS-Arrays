@@ -11,7 +11,7 @@ void Rotate_Left_by_one( vector<int> & nums) {
 
     int temp = nums[0];
     // for( int i=1;i<n;i++) {
-    //     nums[i-1]=nums[i];
+    //     nums[i-1]=nums[i];          // Both are same 
     // }
 
     for( int i=0;i<n-1;i++) {
