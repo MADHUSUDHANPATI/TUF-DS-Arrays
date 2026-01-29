@@ -7,6 +7,7 @@ using namespace std;
 void Rotate_Left_by_k_Places_brute( vector<int> &nums, int k) {
 
     int n = nums.size();
+    int k = k%n;
     vector<int> v;
 
     for( int i=0;i<k ;i++) {
