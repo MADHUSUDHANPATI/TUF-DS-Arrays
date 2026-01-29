@@ -7,6 +7,16 @@ using namespace std;
 
 void Move_Zeros_end_optimal( vector<int> & nums) {
 
+
+    // int j = 0;  // position for next non-zero
+
+    //     for (int i = 0; i < nums.size(); i++) {
+    //         if (nums[i] != 0) {
+    //             swap(nums[i], nums[j]);
+    //             j++;
+    //         }
+    //     }
+    
     int n = nums.size();
     int j =-1;
     for( int i=0;i<n;i++) {                 // -------> O(k)
