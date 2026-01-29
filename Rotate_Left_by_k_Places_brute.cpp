@@ -1,3 +1,6 @@
+// TC : O(k) + O(n-k) + O(k) = O( n +k)
+// SC : O(k)
+
 #include<iostream>
 #include<vector>
 using namespace std;
