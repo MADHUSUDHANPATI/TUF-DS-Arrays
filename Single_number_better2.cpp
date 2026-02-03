@@ -3,7 +3,7 @@
 #include<unordered_map>
 #include<map>
 using namespace std;
-
+// ok
 int Single_number_better2(vector<int> & nums) {
 
     unordered_map<long long, int > mpp;
