@@ -12,7 +12,7 @@ int Single_number_better1(vector<int> & nums) {
         maxi = max(maxi, nums[i]);
     }
 
-    vector<int> hash(maxi+1, 0);
+    vector<int> hash(maxi+1, 0);          // This only works for postive (+ve ) values. not for negative values.
     for(int i=0;i<n;i++) {
         hash[nums[i]]++;
     }
